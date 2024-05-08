@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+* {
     margin: 0;
     box-sizing: border-box;
 }
@@ -11,6 +9,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    background-color: rgb(161, 162, 163);
 }
 
 li {
@@ -19,7 +18,7 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(204, 204, 204);
+    color: white
 }
 
 .nav {
@@ -27,11 +26,25 @@ a {
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: rgb(0, 33, 65);
+    background: black;
 }
 
 .nav__brand {
     text-transform: uppercase;
+}
+
+.nav__text:hover {
+    color: black;
+}
+
+.nav__item:hover {
+    background-color: gray;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__menu {
@@ -49,7 +62,7 @@ a {
     width: 2.5rem;
     height: 0.2rem;
     margin: 0.4rem;
-    background: rgb(204, 204, 204);
+    background: white;
     transition: 0.3s ease-in;
 }
 
@@ -65,7 +78,7 @@ a {
         right: 0;
         height: 93vh;
         width: 50vw;
-        background: rgb(0, 33, 65);
+        background: black;
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;

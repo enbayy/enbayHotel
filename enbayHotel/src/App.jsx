@@ -10,7 +10,6 @@ import NotFoundPage from './components/NotFoundPage.jsx'
 
 function App() {
 
-
   return (
     <>
       <div className="app">

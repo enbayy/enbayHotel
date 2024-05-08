@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import About from "./About";
-import Contact from "./Contact";
-import Home from "./Home";
 import { Link } from 'react-router-dom';
 
 
@@ -26,17 +23,17 @@ function Navbar() {
             <ul className={active}>
                 <li className="nav__item">
                     <a href="#" className="nav__link">
-                        <Link to="/">Anasayfa</Link>
+                        <Link className="nav__text" to="/">Anasayfa</Link>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#" className="nav__link">
-                        <Link to="/about">Hakkında</Link>
+                        <Link className="nav__text" to="/about">Hakkında</Link>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#" className="nav__link">
-                        <Link to="/contact">İletişim</Link>
+                        <Link className="nav__text" to="/contact">İletişim</Link>
                     </a>
                 </li>
             </ul>
