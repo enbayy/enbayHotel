@@ -72,12 +72,9 @@ a {
     }
 }
 
-/* Active Class */
 .nav__active {
     transform: translateX(0%);
 }
-
-/* Toggle Icon Animation */
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-4px, 5px);
