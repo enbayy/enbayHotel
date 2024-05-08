@@ -1,0 +1,90 @@
+.all {
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: flex;
+    width: 52%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-text {
+    height: 40px;
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.input-mail {
+    height: 40px;
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.input-number {
+    height: 40px;
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.textarea {
+    width: 60%;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clear-button {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.send-button {
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}

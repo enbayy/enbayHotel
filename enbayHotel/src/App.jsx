@@ -3,10 +3,10 @@ import './App.css'
 import Navbar from './components/navbar.jsx'
 import './components/navbar.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home.jsx'
-import About from './components/About.jsx'
-import Contact from './components/Contact.jsx'
-import NotFoundPage from './components/NotFoundPage.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 
 function App() {
 
