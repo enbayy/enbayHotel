@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './FormPage.css'
+import Header from './Header'
 
 function FormPage() {
 
@@ -52,7 +53,9 @@ function FormPage() {
                 <button onClick={saveClick} className='save-button'>Kaydet</button>
                 <button onClick={setClick} className='send-button'>Gönder</button>
             </div>
+            <Header />
         </div>
+
     )
 }
 
