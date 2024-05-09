@@ -16,7 +16,11 @@ function FormPage() {
 
     const setClick = () => {
         setName(data)
+    }
 
+    const saveClick = () => {
+        setName(data)
+        clearInput()
     }
 
     const removeClick = () => {
@@ -24,15 +28,19 @@ function FormPage() {
         clearInput();
     }
 
-
     return (
         <div className='all'>
             <div className='contact'>İletişim</div>
             <div>
                 <form className='form'>
                     <div className='info'>
-                        <input value={data} onChange={targetFunc} className='input-text' type="text" placeholder='İsminiz' />
-                        <input className='input-text' type="text" placeholder='Soyadınız' />
+                        <div className='inpo'>
+                            <input value={data} onChange={targetFunc} className='input-text' type="text" placeholder='İsminiz' />
+                            <h3>{name}</h3>
+                        </div>
+                        <div className='inpo'>
+                            <input className='input-text' type="text" placeholder='Soyadınız' />
+                        </div>
                     </div>
                     <input className='input-mail' type="email" placeholder='e-mail' />
                     <input className='input-number' type="number" placeholder='Telefon' />
@@ -41,9 +49,9 @@ function FormPage() {
             </div>
             <div className='buttons'>
                 <button onClick={removeClick} className='clear-button'>Temizle</button>
+                <button onClick={saveClick} className='save-button'>Kaydet</button>
                 <button onClick={setClick} className='send-button'>Gönder</button>
             </div>
-            {name}
         </div>
     )
 }

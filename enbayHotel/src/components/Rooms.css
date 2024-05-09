@@ -1,0 +1,31 @@
+.room-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.room-all {
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 308px;
+    width: 30%;
+}
+
+.room {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+}
