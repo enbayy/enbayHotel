@@ -9,7 +9,7 @@ function Rooms({ room }) {
                 <img className='image' src={image} />
                 <h2 className='title'>{title}</h2>
                 <span className='despriction'>{description}</span>
-                <h3 className='price'>{price}</h3>
+                <h2 className='price'>{price}</h2>
             </div>
         </div>
     )
